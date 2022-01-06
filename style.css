@@ -1,0 +1,35 @@
+.main {
+	background: linear-gradient(180deg, #53a4df -1.61%, #1c3446 100%);
+	text-align: center;
+	flex-direction: column;
+  display: flex;
+height: 100VH;
+	/* align-items: center; */
+}
+body{
+  margin: 0
+}
+input {
+	width: 80%;
+	height: 5vh;
+	border-radius: 20px;
+	font-size: 2rem;
+	margin-top: 5%;
+}
+
+label {
+	font-size: 10vh;
+}
+
+.section {
+	/* margin-bottom: 5vw; */
+	width: 100%;
+  flex-grow: 1;
+}
+
+button {
+	width: 80%;
+	border-radius: 20px;
+	font-size: 3rem;
+	background: linear-gradient(179.5deg, #2d1313 0.43%, rgba(115, 184, 223, 0.984375) 0.46%, #240505 233.23%);
+}
